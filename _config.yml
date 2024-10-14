@@ -1,6 +1,6 @@
 # Site settings
 title: Olivia Prior
-baseurl: "/theanega"
+baseurl: ""
 #url: "localhost:4000"
 url: "https://theanega.github.io"
 twitter_username: theanega
