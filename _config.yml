@@ -1,8 +1,5 @@
 # Site settings
 title: Olivia Prior
-email: oliviaprior@vhio.net
-#description: > 
-#Olivia Prior's personal website.
 baseurl: "/theanega"
 #url: "localhost:4000"
 url: "https://theanega.github.io"
