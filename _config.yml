@@ -1,0 +1,25 @@
+# Site settings
+title: Olivia Prior
+email: oliviaprior@vhio.net
+#description: > 
+#Olivia Prior's personal website.
+baseurl: "/theanega"
+url: "localhost:4000"
+twitter_username: theanega
+github_username:  theanega
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
