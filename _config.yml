@@ -10,7 +10,7 @@ twitter_username: theanega
 github_username:  theanega
 
 # Build settings
-theme: ed.
+theme: minimal
 plugins:
   - jekyll-feed
 exclude:
