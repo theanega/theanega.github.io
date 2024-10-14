@@ -4,7 +4,8 @@ email: oliviaprior@vhio.net
 #description: > 
 #Olivia Prior's personal website.
 baseurl: "/theanega"
-url: "localhost:4000"
+#url: "localhost:4000"
+url: "https://theanega.github.io"
 twitter_username: theanega
 github_username:  theanega
 
