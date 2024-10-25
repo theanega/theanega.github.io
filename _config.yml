@@ -1,7 +1,7 @@
 title: Olivia Prior
 description: A simple, clean static website using Jekyll.
 baseurl: "" # e.g. /blog
-url: "https://theanega.github.io" # the base hostname & protocol for your site
+url: "https://username.github.io" # the base hostname & protocol for your site
 theme: minima
 
 # Build settings
