@@ -1,0 +1,32 @@
+title: Olivia Prior
+description: A simple, clean static website using Jekyll.
+baseurl: "" # e.g. /blog
+url: "https://theanega.github.io" # the base hostname & protocol for your site
+theme: minima
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Writing
+    url: /writing/
+  - title: Lists
+    url: /lists/
+
+# Social links
+social:
+  github: https://github.com/theanega
+  linkedin: https://linkedin.com/in/oliviaprior
+  twitter: https://twitter.com/theanega
+  youtube: https://youtube.com/@camilasiesta
+
+# Resume links
+resume: /assets/files/resume.pdf
+anti_resume: /assets/files/anti-resume.pdf
