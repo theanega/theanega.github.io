@@ -7,7 +7,7 @@ title: Home
 
 Hi, I am a [your brief title/role].
 
-[Write 2-3 sentences about what you care about professionally, similar to Gytis's "I care deeply about craft..." statement]
+[Write 2-3 sentences about what you care about professionally]
 
 [Add a paragraph about your current work/status, location, etc.]
 
