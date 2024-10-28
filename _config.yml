@@ -11,14 +11,12 @@ kramdown:
 
 # Navigation
 nav:
-  - title: Home
-    url: /
   - title: Research
     url: /research/
   - title: Writing
     url: /writing/
-  - title: Lists
-    url: /lists/
+  - title: Others
+    url: /others/
 
 # Social links
 social:

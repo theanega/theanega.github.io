@@ -5,4 +5,4 @@ title: Writing
 
 # Writing
 
-Content about your writings.
+[Your writing content here]
