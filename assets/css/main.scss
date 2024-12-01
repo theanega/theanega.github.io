@@ -1,36 +1,81 @@
-@import "minima";
+// First, let's set up some base variables for consistent styling
+$primary-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+$text-color: #333;
+$background-color: #fff;
+$link-color: #000;
+$max-width: 800px;
 
-/* Custom Styles */
-
+// Reset and base styles
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
+  font-family: $primary-font;
+  line-height: 1.6;
+  color: $text-color;
+  background-color: $background-color;
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: 2rem;
 }
 
-header {
-  margin-bottom: 40px;
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  line-height: 1.3;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
 
-nav a {
+// Links
+a {
+  color: $link-color;
   text-decoration: none;
-  color: #333;
+  
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
+// Navigation
+nav {
+  margin-bottom: 3rem;
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  a {
+    font-size: 1rem;
+  }
+}
+
+// Main content
+p {
+  margin-bottom: 1.5rem;
+}
+
+// Footer
 footer {
-  margin-top: 40px;
-  text-align: center;
-  color: #777;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+  color: lighten($text-color, 30%);
+  font-size: 0.9rem;
 }
 
+// Responsive design
 @media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+  
   nav ul {
     flex-direction: column;
-    gap: 10px;
+    gap: 0.8rem;
   }
 }

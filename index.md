@@ -5,11 +5,9 @@ title: Home
 
 # Olivia Prior
 
-Hi! How is your day going? 
-
 My name is Olivia and this website contains personal and professional information. 
 
-I'm currently doing my PhD in Biomedical Engineering at the [Radiomics Group](https://radiomicsgroup.github.io/) in Vall d'Hebron Institue of Oncology (Barcelona, Spain).
+I am currently doing my PhD in Biomedical Engineering at the [Radiomics Group](https://radiomicsgroup.github.io/) in Vall d'Hebron Institue of Oncology (Barcelona, Spain).
 
 You can reach me at [oliviaprior@yhio.net](mailto:oliviaprior@vhio.net). 
 
