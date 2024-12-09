@@ -8,14 +8,6 @@
 </head>
 <body>
   <header>
-    <div class="controls">
-      <select class="language-selector" onchange="changeLanguage(this.value)">
-        <option value="en" {% if page.lang == 'en' %}selected{% endif %}>EN</option>
-        <option value="es" {% if page.lang == 'es' %}selected{% endif %}>ES</option>
-        <option value="ca" {% if page.lang == 'ca' %}selected{% endif %}>CA</option>
-      </select>
-      <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
-    </div>
     <nav class="main-nav">
       <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
       <a href="/research" {% if page.url == "/research" %}class="active"{% endif %}>Research</a>
@@ -32,31 +24,6 @@
     &copy; {{ site.time | date: "%Y" }} {{ site.title }}
   </footer>
 
-  <script>
-    // Theme toggling
-    function toggleTheme() {
-      const body = document.body;
-      if (body.getAttribute('data-theme') === 'dark') {
-        body.removeAttribute('data-theme');
-        localStorage.setItem('theme', 'light');
-      } else {
-        body.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-      }
-    }
-
-    // Language switching
-    function changeLanguage(lang) {
-      const currentPath = window.location.pathname;
-      const newPath = currentPath.replace(/\/(en|es|ca)\//, '/');
-      window.location.href = `/${lang}${newPath}`;
-    }
-
-    // Initialize theme from localStorage
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    if (savedTheme === 'dark') {
-      document.body.setAttribute('data-theme', 'dark');
-    }
-  </script>
+  
 </body>
 </html>
