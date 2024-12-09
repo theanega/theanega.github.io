@@ -15,8 +15,6 @@ nav:
     url: /research/
   - title: Writing
     url: /writing/
-  - title: Others
-    url: /others/
 
 # Social links
 social:
@@ -28,21 +26,3 @@ social:
 # Resume links
 resume: /assets/files/resume.pdf
 anti_resume: /assets/files/anti-resume.pdf
-
-# Add to your existing config
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      lang: "en"
-  -
-    scope:
-      path: "es"
-    values:
-      lang: "es"
-  -
-    scope:
-      path: "ca"
-    values:
-      lang: "ca"
