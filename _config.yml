@@ -1,7 +1,7 @@
 title: Olivia Prior
-description: A simple, clean static website using Jekyll.
-baseurl: "" # e.g. /blog
-url: "https://username.github.io" # the base hostname & protocol for your site
+description: A collection of thoughts, research, and digital explorations.
+baseurl: "" 
+url: "https://username.github.io"
 theme: minima
 
 # Build settings
@@ -9,20 +9,40 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-# Navigation
 nav:
   - title: Research
     url: /research/
-  - title: Writing
-    url: /writing/
+  - title: Garden
+    url: /garden/
 
-# Social links
+
+# Social links (keeping these as they are)
 social:
   github: https://github.com/theanega
   linkedin: https://linkedin.com/in/oliviaprior
   twitter: https://twitter.com/theanega
   youtube: https://youtube.com/@camilasiesta
 
-# Resume links
+# Resume links (keeping these as they are)
 resume: /assets/files/resume.pdf
 anti_resume: /assets/files/anti-resume.pdf
+
+collections:
+  notes:
+    output: true
+    permalink: /garden/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "note"
+      planted: "" # Will be filled with creation date
+      tended: "" # Will be filled with last modified date
+
+
+
+# Add tag support
+tag_page_layout: tag_page
+tag_page_dir: tags

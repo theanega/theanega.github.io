@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<h2>Digital Garden</h2>
+<p>A collection of my half-formed thoughts and notes.</p>
+
+<div class="notes">
+    {% for note in site.notes %}
+    <article class="note">
+        <h3><a href="{{ note.url }}">{{ note.title }}</a></h3>
+        <div class="meta">
+            {{ note.date | date: "%Y-%m-%d" }}
+            {% if note.tended %} • Last tended: {{ note.tended | date: "%Y-%m-%d" }}{% endif %}
+            {% if note.tags %}
+            <div class="tags">
+                {% for tag in note.tags %}
+                <a href="/tags/{{ tag }}" class="tag">#{{ tag }}</a>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </article>
+    {% endfor %}
+</div>
