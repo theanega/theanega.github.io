@@ -12,8 +12,8 @@ kramdown:
 nav:
   - title: Research
     url: /research/
-  - title: Garden
-    url: /garden/
+  - title: Notes
+    url: /notes/
 
 
 # Social links (keeping these as they are)
@@ -27,12 +27,29 @@ social:
 resume: /assets/files/resume.pdf
 anti_resume: /assets/files/anti-resume.pdf
 
+# Archives
+tag_archive:
+  type: liquid
+  permalink: /tags/ 
+
+# Collections
 collections:
+  archives:
+    output: true
+    permalink: /archive/
   notes:
     output: true
-    permalink: /garden/:title/
+    permalink: /notes/
 
 defaults:
+#_pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: "page"
+
+#_posts
   - scope:
       path: ""
       type: "notes"
@@ -46,3 +63,9 @@ defaults:
 # Add tag support
 tag_page_layout: tag_page
 tag_page_dir: tags
+
+include:
+  - _pages
+  - _notes
+  - _research
+  - _tags
