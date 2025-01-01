@@ -4,6 +4,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+
+  <!-- Debug info - this will print the actual URL Jekyll generates -->
+  <!-- You can remove these after debugging -->
+  {% comment %}
+  Debug: {{ "/assets/images/theanega_Small_Logo.png" | relative_url }}
+  {% endcomment %}
+
+
   <link rel="icon" type="image/png" href="{{ "/assets/images/theanega_Small_Logo.png" | relative_url }}">  
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
