@@ -1,0 +1,51 @@
+.note {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .note-header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .note-metadata {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 1rem 0;
+  }
+  
+  .note-metadata span {
+    margin-right: 1rem;
+  }
+  
+  .tags {
+    margin-top: 1rem;
+  }
+  
+  .tag {
+    background: #f0f0f0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .note-content {
+    line-height: 1.6;
+  }
+  
+  .note-footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .backlinks {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .backlinks li {
+    margin: 0.5rem 0;
+  }
