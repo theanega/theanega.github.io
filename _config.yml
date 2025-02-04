@@ -54,7 +54,6 @@ tag_page_dir: tags
 
 include:
   - _pages
-  - _notes
   - _research
   - _tags
   - assets
