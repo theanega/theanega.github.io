@@ -1,7 +1,11 @@
 ---
-layout: notes
+layout: default
 title: Notes
 permalink: /notes/
 ---
 
-test
+<ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
