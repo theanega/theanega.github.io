@@ -34,12 +34,10 @@ tag_archive:
 
 # Collections
 collections:
-  archives:
+  posts:
     output: true
-    permalink: /archive/
-  notes:
-    output: true
-    permalink: /notes/
+    permalink: /notes/:title/
+    sort_by: last_tended
 
 defaults:
 #_pages
@@ -50,15 +48,11 @@ defaults:
       layout: "page"
 
 #_posts
-  - scope:
+    - scope:
       path: ""
-      type: "notes"
+      type: "posts"
     values:
       layout: "note"
-      planted: "" # Will be filled with creation date
-      tended: "" # Will be filled with last modified date
-
-
 
 # Add tag support
 tag_page_layout: tag_page

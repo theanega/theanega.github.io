@@ -1,20 +1,31 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- seo -%}
 
-  <!-- Debug info - this will print the actual URL Jekyll generates -->
-  <!-- You can remove these after debugging -->
-  {% comment %}
-  Debug: {{ "/assets/images/theanega_Small_Logo.png" | relative_url }}
-  {% endcomment %}
-
-
-  <link rel="icon" type="image/png" href="{{ "/assets/images/theanega_Small_Logo.png" | relative_url }}">  
-  {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
+    <!-- All your stylesheets -->
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/notes.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Your favicon -->
+    <link rel="icon" type="image/png" href="{{ "/assets/images/theanega_Small_Logo.png" | relative_url }}">
+    
+    <!-- Feed meta and analytics -->
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+        {%- include google-analytics.html -%}
+    {%- endif -%}
+    
+    <!-- Your custom styles -->
+    <style>
+        /* Move your inline styles here */
+        body {
+            max-width: 800px;
+            margin: 2rem auto;
+            /* ... rest of your styles ... */
+        }
+        /* ... other styles ... */
+    </style>
 </head>
