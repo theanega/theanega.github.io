@@ -4,6 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-# Research
+My current research is focused on capturing intratumor heterogeneity of liver metastases with radiology. Briefly I'm trying to answer the following questions:
 
-[Your thoughts start growing here...]
+- Can we capture intratumor heterogneiety?
+- If yes, is this intrautmor ehterogeneity clinically relevant? 
