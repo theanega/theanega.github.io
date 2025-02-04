@@ -36,6 +36,26 @@ a {
   }
 }
 
+/* Add these styles to your styles.css file */
+header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+header nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.25rem;  /* Makes the navigation links 25% larger */
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a.active {
+  font-weight: bold;
+}
+
 // Navigation
 nav {
   margin-bottom: 3rem;
