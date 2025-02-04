@@ -15,36 +15,34 @@ nav:
   - title: Notes
     url: /notes/
 
-
-# Social links (keeping these as they are)
+# Social links
 social:
   github: https://github.com/theanega
   linkedin: https://linkedin.com/in/oliviaprior
   twitter: https://twitter.com/theanega
   youtube: https://youtube.com/@camilasiesta
 
-# Resume links (keeping these as they are)
+# Resume links
 resume: /assets/files/resume.pdf
 anti_resume: /assets/files/anti-resume.pdf
 
 # Archives
 tag_archive:
   type: liquid
-  permalink: /tags/ 
-
+  permalink: /tags/
 
 defaults:
-#_pages
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: "default"
 
-#_posts
-    - scope:
+  # _posts
+  - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
       layout: "note"
 
