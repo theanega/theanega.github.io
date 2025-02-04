@@ -34,7 +34,7 @@ tag_archive:
 
 # Collections
 collections:
-  posts:
+  notes:
     output: true
     permalink: /notes/:title/
     sort_by: last_tended
