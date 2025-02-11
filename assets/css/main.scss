@@ -1,9 +1,13 @@
+// main.scss
+
+// SCSS Variables
 $primary-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
 $text-color: #333;
 $background-color: #fff;
-$link-color: #000;
+$link-color: #0066cc;
 $max-width: 800px;
 $subtle-color: #666;
+
 
 body {
   font-family: $primary-font;
@@ -30,47 +34,56 @@ h1 {
 a {
   color: $link-color;
   text-decoration: none;
-  
+
   &:hover {
     text-decoration: underline;
   }
 }
 
-/* Add these styles to your styles.css file */
-header nav {
+// Header and Navigation
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.main-nav {
   display: flex;
   gap: 1.5rem;
 }
 
-header nav a {
-  color: var(--text-color);
+.main-nav a {
+  color: $text-color;
   text-decoration: none;
-  font-size: 1.25rem;  /* Makes the navigation links 25% larger */
 }
 
-header nav a:hover {
+.main-nav a:hover {
   text-decoration: underline;
 }
 
-header nav a.active {
-  font-weight: bold;
+nav ul li {
+  margin-right: 1.5rem; /* Adjust this value as needed */
 }
 
-// Navigation
-nav {
-  margin-bottom: 3rem;
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 1.5rem;
-  }
-  
-  a {
-    font-size: 1rem;
-  }
+/* Remove margin from the last item to prevent extra space at the end */
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.language-selector, .theme-toggle {
+  padding: 0.3rem 0.6rem;
+  border: 1px solid $text-color;
+  border-radius: 4px;
+  background: transparent;
+  color: $text-color;
+  cursor: pointer;
 }
 
 // Main content
@@ -92,19 +105,18 @@ footer {
   body {
     padding: 1rem;
   }
-  
-  nav ul {
+
+  .main-nav {
     flex-direction: column;
     gap: 0.8rem;
   }
 }
 
-
 // Wiki-style links
 .internal-link {
   text-decoration: none;
   border-bottom: 1px solid #ddd;
-  
+
   &:hover {
     background-color: #f0f0f0;
     border-bottom-color: #999;
@@ -116,13 +128,13 @@ footer {
   margin-top: 3rem;
   padding-top: 1.5rem;
   border-top: 1px solid #eee;
-  
+
   h3 {
     font-size: 1rem;
     color: $subtle-color;
     margin-bottom: 1rem;
   }
-  
+
   ul {
     list-style: none;
     padding: 0;
@@ -133,15 +145,15 @@ footer {
 // Notes list
 .notes-list {
   margin: 2rem 0;
-  
+
   .note-item {
     margin-bottom: 2rem;
-    
+
     .note-title {
       font-size: 1.2rem;
       margin-bottom: 0.5rem;
     }
-    
+
     .note-meta {
       font-size: 0.9rem;
       color: $subtle-color;
