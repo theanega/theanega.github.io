@@ -14,6 +14,10 @@ nav:
     url: /research/
   - title: Notes
     url: /notes/
+  - title: CV  # New entry
+    url: {{ site.resume }} # New entry
+```
+
 
 # Social links
 social:
