@@ -1,7 +1,8 @@
 ---
 layout: note
 title: "Reflexiones Media Maratón"
-date: 2025-02-04
+planted: 2025-04-24
+last_tended: 2025-04-24
 tags: [sport]
 ---
 
