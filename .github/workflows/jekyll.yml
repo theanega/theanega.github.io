@@ -3,7 +3,11 @@ name: Deploy Jekyll site
 on:
   push:
     branches:
-      - master  # or master, depending on your default branch name
+      - master
+
+# Add this permissions block
+permissions:
+  contents: write
 
 jobs:
   jekyll:
@@ -14,7 +18,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'  # Updated from 3.1 to 3.2
+          ruby-version: '3.2'
           bundler-cache: true
       
       - name: Build site
