@@ -19,4 +19,3 @@ El 16 de febrero de 2025 corrí la media maratón de Barcelona. Hice un tiempo d
 5. Es increíble cómo nos influenciamos los unos a los otros. Si no hubiera hablado con Ramón y con Elena este verano no me habría motivado a apuntarme a la media maratón. Si Lau no me hubiera dicho de hacerla juntas no me habría apuntado. Mike no se habría apuntado sin nosotras. No habría acabado sin mi hermana. Y no habría mantenido ni el ritmo ni la sonrisa sin la cantidad de gente animando durante toda la carrera. Ojalá siempre pueda estar rodeada de personas que se apuntan a cosas. Se contagia. Y espero poder contagiar también.
    
 6. Otras cosas para no olvidarme en la próxima: no probar los geles el día de la carrera (me cogió flato), hay que hacer ejercicios de fuerza (squats etc), no se corre con resaca, hay que salir a correr con gente que corre más rápido que tú de vez en cuando. 
-

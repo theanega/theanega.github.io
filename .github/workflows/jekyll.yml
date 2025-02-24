@@ -3,7 +3,7 @@ name: Deploy Jekyll site
 on:
   push:
     branches:
-      - main  # or master, depending on your default branch name
+      - master  # or master, depending on your default branch name
 
 jobs:
   jekyll:
