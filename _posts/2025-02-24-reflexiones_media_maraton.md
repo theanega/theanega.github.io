@@ -3,7 +3,7 @@ layout: note
 title: "Reflexiones Media Maratón"
 planted: 2025-04-24
 last_tended: 2025-04-24
-tags: [sport]
+tags: []
 ---
 
 El 16 de febrero de 2025 corrí la media maratón de Barcelona. Hice un tiempo de 2h22 a un ritmo medio de 6'43''. 
