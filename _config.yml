@@ -16,7 +16,7 @@ nav:
     url: /notes/
   - title: CV  # New entry
     url: {{ site.resume }} # New entry
-```
+
 
 
 # Social links
