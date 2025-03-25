@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Configuration
-OBSIDIAN_SCRIPT="C:/Users/oprio/Documents/_website/obsidian_to_jekyll.py"
-WEBSITE_DIR="C:/Users/oprio/Documents/_website"
+OBSIDIAN_SCRIPT="obsidian_to_jekyll.py"
+WEBSITE_DIR="/mnt/c/Users/oprio/Documents/_website"
 COMMIT_MESSAGE="Add new post from Obsidian"
 
 # Print header
