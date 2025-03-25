@@ -1,5 +1,5 @@
 ---
-title: being-shy-on-Twitter
+title: Being Shy on Twitter
 planted: 2024-01-15
 last_tended: 2024-05-04
 publish: true
