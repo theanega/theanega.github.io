@@ -1,4 +1,5 @@
 ---
+layout: note
 title: being-shy-on-Twitter
 planted: 2024-01-15
 last_tended: 2025-05-04
