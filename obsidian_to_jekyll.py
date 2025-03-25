@@ -5,9 +5,10 @@ from datetime import datetime
 import argparse
 
 # Configuration
-OBSIDIAN_VAULT_PATH = r'C:\Users\oprio\Documents\git_obsidian\__main\notes'
-JEKYLL_POSTS_PATH = r'C:\Users\oprio\Documents\_website\_posts'
-
+#OBSIDIAN_VAULT_PATH = r'C:\Users\oprio\Documents\git_obsidian\__main\notes'
+#JEKYLL_POSTS_PATH = r'C:\Users\oprio\Documents\_website\_posts'
+OBSIDIAN_VAULT_PATH="/mnt/c/Users/oprio/Documents/git_obsidian/__main/_notes"
+JEKYLL_POSTS_PATH="/mnt/c/Users/oprio/Documents/_website/_posts"
 def parse_simple_frontmatter(frontmatter_text):
     """Parse YAML frontmatter without using the yaml module."""
     result = {}
