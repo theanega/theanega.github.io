@@ -1,7 +1,7 @@
 // main.scss
 
 // SCSS Variables
-$primary-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+$primary-font: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
 $text-color: #333;
 $background-color: #fff;
 $link-color: #0066cc;
@@ -31,12 +31,22 @@ h1 {
 }
 
 // Links
-a {
+nav a {
   color: $link-color;
   text-decoration: none;
+  margin-right: 1.5rem; /* Adjust this value for desired spacing */
 
   &:hover {
     text-decoration: underline;
+  }
+
+  /* Remove margin from the last link to prevent extra space */
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.active {
+    font-weight: bold; /* Optional: make active link bold */
   }
 }
 
@@ -46,29 +56,6 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3rem;
-}
-
-.main-nav {
-  display: flex;
-  gap: 1.5rem;
-}
-
-.main-nav a {
-  color: $text-color;
-  text-decoration: none;
-}
-
-.main-nav a:hover {
-  text-decoration: underline;
-}
-
-nav ul li {
-  margin-right: 1.5rem; /* Adjust this value as needed */
-}
-
-/* Remove margin from the last item to prevent extra space at the end */
-nav ul li:last-child {
-  margin-right: 0;
 }
 
 .controls {
