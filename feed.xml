@@ -1,88 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://theanega.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://theanega.github.io/" rel="alternate" type="text/html" /><updated>2025-05-04T20:55:02+00:00</updated><id>https://theanega.github.io/feed.xml</id><title type="html">Olivia Prior</title><subtitle>Just sharing.</subtitle><entry><title type="html">Advice for myself for my last year of PhD</title><link href="https://theanega.github.io/2025/04/28/advice-for-myself-for-my-last-year-of-phd.html" rel="alternate" type="text/html" title="Advice for myself for my last year of PhD" /><published>2025-04-28T00:00:00+00:00</published><updated>2025-04-28T00:00:00+00:00</updated><id>https://theanega.github.io/2025/04/28/advice-for-myself-for-my-last-year-of-phd</id><content type="html" xml:base="https://theanega.github.io/2025/04/28/advice-for-myself-for-my-last-year-of-phd.html"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://theanega.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://theanega.github.io/" rel="alternate" type="text/html" /><updated>2025-05-04T21:44:45+00:00</updated><id>https://theanega.github.io/feed.xml</id><title type="html">Olivia Prior</title><subtitle>Just sharing.</subtitle><entry><title type="html">Advice for myself for my last year of PhD</title><link href="https://theanega.github.io/2025/04/28/advice-for-myself-for-my-last-year-of-phd.html" rel="alternate" type="text/html" title="Advice for myself for my last year of PhD" /><published>2025-04-28T00:00:00+00:00</published><updated>2025-04-28T00:00:00+00:00</updated><id>https://theanega.github.io/2025/04/28/advice-for-myself-for-my-last-year-of-phd</id><content type="html" xml:base="https://theanega.github.io/2025/04/28/advice-for-myself-for-my-last-year-of-phd.html"><![CDATA[<ul>
   <li>Coding:
     <ul>
-      <li>Python is not Spotify. You don’t press the button and enjoy. You need to understand.</li>
+      <li>Python is not Spotify. Understand all lines.</li>
+      <li>But think about if you’re the user or the developer - there’s a <a href="https://old.reddit.com/r/learnmachinelearning/comments/18kh4n5/i_cant_stop_using_chatgpt_and_i_hate_it/">tradeoff</a> between understanding the code at a deep level and how fast you want to get it done.</li>
       <li>Read file paths twice before running the code.</li>
       <li>Test it first with one image/tumor/patient before running it for multiple.</li>
-      <li>Autosave enabled always</li>
-      <li>Git is my friend</li>
+      <li>Autosave</li>
+      <li>Git</li>
+      <li>Celebrate with cheerful messages.</li>
     </ul>
   </li>
-  <li>You don’t have to say yes. Focus on getting your thesis done. Yes, you have a choice. No, they won’t be upset.</li>
-  <li>Ask for help. Seek out collaborators and mentors. They don’t have to from your group or from your institution. There are kind, brilliant people out there willing to help you. They’re adults, if they’re busy they’ll tell you.</li>
   <li>Experiments:
     <ul>
-      <li>You can tolerate ambiguity, you’ve done it before. There will always be uncertainty but you can still make decisions based on the best avaialble evidence (healthy skepticism with practical action! pragmatic idealist, not idealist!)</li>
-      <li>Computers don’t volunteer information; you have to ask for it (https://blog.sbensu.com/posts/default-blind/). Very imprtant to stay optimisitc and approach the porject like “how can i Ifnd omehting good here?”. Show resutls to someone before you decide there’s nothing there.</li>
-      <li>You’re an imaging scientist, visualize the images, not just the arrays.</li>
-      <li>Get something done every day. Better to have bad results thatn have no results at all. Better to have output first than to have an optimized pipeline. If perfoamnce is an aissue after you have some result then optimize pipeline. https://old.reddit.com/r/dataengineering/comments/1dfmoyl/advice_from_senior_des_to_junior_des/.  Goals and outcomes over methods.</li>
-      <li>When desingin an experiment: what is the task (the question) wha tis the data and how yo’re going measure pefromance to answer the question? Use more than one metric to measure performance. All experiments shoudl have a take-home message (you do it to test an hypothesis) - what am I elarnign with this experiment?</li>
+      <li>What is the task (the question)?  What am I learning with this experiment? All experiments should have a take-home message.</li>
+      <li>Do I have the data I need?</li>
+      <li>How am I going to measure performance?  Use more than one metric ideally.</li>
+      <li>Computers don’t <a href="https://blog.sbensu.com/posts/default-blind/">volunteer</a> information; I have to ask for it.</li>
+      <li>Stay optimistic: how can I find something good here?</li>
+      <li>Show results to someone before I decide there’s nothing there (you tend to be very negative Olivia!)</li>
+      <li>I’m an imaging scientist, visualize the images.</li>
+      <li>Better to have bad results than to have no results at all.</li>
+      <li>Also better to have output first than to have an optimized pipeline. If performance is an issue after you have some results then optimize pipeline.  <a href="https://old.reddit.com/r/dataengineering/comments/1dfmoyl/advice_from_senior_des_to_junior_des/.">Goals and outcomes over methods</a>!!</li>
+      <li>I can tolerate ambiguity, I’ve done it before. There will always be uncertainty but I can still make decisions based on the best available evidence (healthy skepticism with practical action! pragmatic idealist, not idealist!)</li>
+      <li>Take screenshots of failed experiments/plots for the last lab meeting before the viva.</li>
+      <li>Its normal that I change my mind after talking to someone I respect but think about it properly adn discuss it with someone else before changing the whole experiement design.</li>
+      <li>Celebrate</li>
     </ul>
   </li>
-  <li>Document everything &amp; organize information (codes, docs, whatver) by where you will use it, not by where you found it or how you created it.codes like you want to find them later, not like you’re wrking right now.</li>
   <li>Presentations:
     <ul>
-      <li>In presentations: the most important thing is the audience, not you, not the message</li>
+      <li>The most important thing is the audience, not me, not the message</li>
       <li>Also: assume people know what cancer is, do not assume they know the rest.</li>
     </ul>
   </li>
   <li>Productivity
     <ul>
-      <li>Working remotely: respect spaces at home. No laptop on the bed unless you want to deal with the consequences the day after.</li>
-      <li>Producitvity is arelatinhsip ebtween iput and ouput. check your output expectations.</li>
-      <li>I’m resposbile of figuring out how I work best</li>
-      <li>You don’t have to start your day reading your email.</li>
-      <li>Too much reading is procrstating an. you alrady have or problem defined, attack it.</li>
+      <li>Productivity is a relationship between input and output. Calibrate expectations.</li>
+      <li>Working remotely: respect spaces at home. No laptop on the bed unless I want to deal with the consequences the day after.</li>
+      <li>I’m responsible of figuring out how I work best.</li>
+      <li>I don’t have to start my day reading my email.</li>
+      <li>Too much reading is procrastinating too.</li>
+      <li>Document everything &amp; organize information (codes, docs, whatever) by where I will use it, not by where I found it or how I created it.</li>
     </ul>
   </li>
-  <li>Get out of your head:
+  <li>Get out of my own head:
     <ul>
-      <li>don’t dwell on the past, stop carrying a cemetery of failed projects/papers in your head.</li>
-      <li>everyone is busy, no one is “ignoring” me on purpose, everyone is working on their own goals, and I shouldl be too. The theiss is not everyone’s proprity, only mine! (What is water) - you have power over how you react to your thoughts, go not default.</li>
+      <li>Don’t dwell on the past, stop carrying a cemetery of failed projects/papers in your head.</li>
+      <li>I don’t have to say yes. Focus on getting your thesis done. Yes, I have a choice. No, they won’t be upset.</li>
+      <li>Everyone is busy, no one is “ignoring” me on purpose, everyone is working on their own goals, and I should be too. The thesis is not everyone’s priority, only mine!</li>
       <li>I’m not my work, I’m a vector for the work.</li>
-      <li>
-        <ol>
-          <li>Celebrate: nice messages in codes.</li>
-        </ol>
-      </li>
-    </ul>
-  </li>
-  <li>People:
-    <ul>
-      <li>Everyone is trying their best.</li>
-      <li>If you dont’ have anything good to say about osmeon edon’t say ianything at all.</li>
+      <li>I have power over how I react to these thoughts, don’t choose my <a href="https://www.themarginalian.org/2012/09/12/this-is-water-david-foster-wallace/">default setting. </a></li>
     </ul>
   </li>
   <li>Meetings:
     <ul>
-      <li>they should all have a goal and an agenda.</li>
-      <li>bserve body language.</li>
-      <li>finish with next steps</li>
-      <li>lab meetings: work in progress, use the opportunity to ask questions not to show everything you’ve done.</li>
+      <li>They should all have a goal and an agenda.</li>
+      <li>Finish with next steps</li>
+      <li>Lab meetings are for work in progress, use the opportunity to ask questions and get feedback not to show everything you’ve done.</li>
     </ul>
   </li>
-</ul>
-
-<ol>
-  <li>Misc: I have power with words. You go to work to work, not to be liked. It’s a privilege to hace access to healthcare data. Ask for what I want. Be a scientist also when comparing myself to others. La energía se transmite. i se te ocurren ideas cuando vas en moto aparca y apuntatelas, se te van a olvidar cuando llegues a casa.</li>
-  <li>Pen and paper to understand things. Explain it to someone else to test your understanding.</li>
-  <li>Health: no te toques la car ani la espalda. Haz deporte.</li>
-  <li>Ideas, data, experiment design.. most of them come from other people I work with or from me after/during working with them. Also people who came before me. Give credit.</li>
-  <li>I am a member of different communities</li>
-  <li>How can I be useful? (better question than <em>how can I be successful?</em>)</li>
-  <li>Being useful for patients and for research are two different things (academic success vs clinic success)</li>
-  <li>Don’t start converstations wiht firs tyear phds about mental health and the struggles of the phd. Exaggerate the good parts as mucha s the bad parts.</li>
-  <li>Focus on the goal, not the methods. Don’t lose sight of what needs to be accomplished when overthinking too much how it should be done.</li>
-  <li>Its normal that you change your mind after talking to someone who your espect. Thnk about it twice before changing the xperiments.</li>
-  <li>Time is not fungible.</li>
-  <li>No te toques la cara ni la espalda.</li>
-  <li>Resarching literature loof for other fields too. Other fiels included other primary tumros, other image modalities and even nn imaging (e..g UMAPs in single cell)</li>
-  <li>Understand the code you copy from Claude and if possible type it in, do not copy it. Also: there’s a tradeoff between understanding the code in a deep level and how fast you want to build the code. https://old.reddit.com/r/learnmachinelearning/comments/18kh4n5/i_cant_stop_using_chatgpt_and_i_hate_it/</li>
-  <li>Re-read highlights from these books: Art fo sCience and Engineering, Writing your iddsertaton in 15 minutes a day, this is water.</li>
-  <li>Tratate bien. Making things is hard and your brain wasn’t built to deal with abstract ocncept and in English every dya. “ind oidng sicence we are borrowing equipment (the mind) developed for anothe rpuporse, and we should not be surprised if sometimes the quipemnt is not cut out for the task. “ Sciense is full of asbtract concepts. https://michaelnielsen.org/blog/tough-learning-part-4-final-draft/. You’re repetaedly an directly confronting the boundaries of you rwon intelligence and finding it wanting. t’ shard to keep up, it sokay to be confused and uncertain )gavin leech)</li>
-  <li>you’re part of a community and you have responsibilities (radiomics group, VHIO, imagins scientsit community, lacaixa)</li>
-  <li>The best resource for research is your mind and the best tool is writing.</li>
-</ol>]]></content><author><name></name></author><category term="phd" /><category term="advice" /><summary type="html"><![CDATA[Coding: Python is not Spotify. You don’t press the button and enjoy. You need to understand. Read file paths twice before running the code. Test it first with one image/tumor/patient before running it for multiple. Autosave enabled always Git is my friend You don’t have to say yes. Focus on getting your thesis done. Yes, you have a choice. No, they won’t be upset. Ask for help. Seek out collaborators and mentors. They don’t have to from your group or from your institution. There are kind, brilliant people out there willing to help you. They’re adults, if they’re busy they’ll tell you. Experiments: You can tolerate ambiguity, you’ve done it before. There will always be uncertainty but you can still make decisions based on the best avaialble evidence (healthy skepticism with practical action! pragmatic idealist, not idealist!) Computers don’t volunteer information; you have to ask for it (https://blog.sbensu.com/posts/default-blind/). Very imprtant to stay optimisitc and approach the porject like “how can i Ifnd omehting good here?”. Show resutls to someone before you decide there’s nothing there. You’re an imaging scientist, visualize the images, not just the arrays. Get something done every day. Better to have bad results thatn have no results at all. Better to have output first than to have an optimized pipeline. If perfoamnce is an aissue after you have some result then optimize pipeline. https://old.reddit.com/r/dataengineering/comments/1dfmoyl/advice_from_senior_des_to_junior_des/. Goals and outcomes over methods. When desingin an experiment: what is the task (the question) wha tis the data and how yo’re going measure pefromance to answer the question? Use more than one metric to measure performance. All experiments shoudl have a take-home message (you do it to test an hypothesis) - what am I elarnign with this experiment?]]></summary></entry><entry><title type="html">Varios (Marzo 2025)</title><link href="https://theanega.github.io/2025/04/06/varios-marzo-2025.html" rel="alternate" type="text/html" title="Varios (Marzo 2025)" /><published>2025-04-06T00:00:00+00:00</published><updated>2025-04-06T00:00:00+00:00</updated><id>https://theanega.github.io/2025/04/06/varios-marzo-2025</id><content type="html" xml:base="https://theanega.github.io/2025/04/06/varios-marzo-2025.html"><![CDATA[<ul>
+  <li>Research:
+    <ul>
+      <li>How can I be useful? (better question than <em>how can I be successful?</em>)</li>
+      <li>Being useful for patients and for research are two different things (academic success vs clinical success)</li>
+      <li>Read papers from other fields (other primary tumors, imaging modalities, non-imaging AI too..) Someone has thought about it before for sure but perhaps not with imaging data or not for cancer.</li>
+      <li>Pen and paper to understand things. Explain it to someone else to test my understanding.</li>
+      <li>Ask for help &amp; ask for what I want. Seek out collaborators and mentors. They don’t have to be from my group or even from my institution. There might always be kind, brilliant people out there willing to help me.</li>
+      <li>The best resource I have is my mind and the best tool is writing.</li>
+      <li>Trátate bien. Making things is hard and <a href="https://michaelnielsen.org/blog/tough-learning-part-4-final-draft/">my brain wasn’t built to deal with abstract concepts</a> . <a href="https://www.gleech.org/nograd">Also I’m repeatedly and directly confronting the boundaries of your own intelligence and finding it wanting</a> , which is not a pleasant experience. Plus I’m working in English every day. It’s okay to find it hard, calm down.</li>
+      <li>It’s a privilege to work with patient data. I have a moral obligation toward them to find if there’s something useful there.</li>
+    </ul>
+  </li>
+  <li>Random:
+    <ul>
+      <li>Si se te ocurren ideas cuando vas en moto aparca y apuntátelas, se te van a olvidar cuando llegues a casa.</li>
+      <li>No tocarme la cara ni al espalda mientras esté en el ordenador.</li>
+      <li>Ideas, data, experiment design.. 99% of it comes from other people I work with. Also people who came before me. Give credit.</li>
+      <li>I am a member of different communities (radiomics group, VHIO, LaCaixa) and that comes with responsibilities.</li>
+      <li>Don’t start conversations with first year PhDs about mental health and the struggles of the PhD. Exaggerate the good parts as much as the bad parts!!</li>
+      <li>Time is not fungible.</li>
+      <li>Everyone is trying their best.</li>
+      <li>Re-read highlights from the Art of Science and Engineering, Writing your Dissertation in Fifteen Minutes a Day and <a href="https://github.com/theanega/science_advice">others</a>.</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name></name></author><category term="phd" /><category term="advice" /><summary type="html"><![CDATA[Coding: Python is not Spotify. Understand all lines. But think about if you’re the user or the developer - there’s a tradeoff between understanding the code at a deep level and how fast you want to get it done. Read file paths twice before running the code. Test it first with one image/tumor/patient before running it for multiple. Autosave Git Celebrate with cheerful messages. Experiments: What is the task (the question)? What am I learning with this experiment? All experiments should have a take-home message. Do I have the data I need? How am I going to measure performance? Use more than one metric ideally. Computers don’t volunteer information; I have to ask for it. Stay optimistic: how can I find something good here? Show results to someone before I decide there’s nothing there (you tend to be very negative Olivia!) I’m an imaging scientist, visualize the images. Better to have bad results than to have no results at all. Also better to have output first than to have an optimized pipeline. If performance is an issue after you have some results then optimize pipeline. Goals and outcomes over methods!! I can tolerate ambiguity, I’ve done it before. There will always be uncertainty but I can still make decisions based on the best available evidence (healthy skepticism with practical action! pragmatic idealist, not idealist!) Take screenshots of failed experiments/plots for the last lab meeting before the viva. Its normal that I change my mind after talking to someone I respect but think about it properly adn discuss it with someone else before changing the whole experiement design. Celebrate]]></summary></entry><entry><title type="html">Varios (Marzo 2025)</title><link href="https://theanega.github.io/2025/04/06/varios-marzo-2025.html" rel="alternate" type="text/html" title="Varios (Marzo 2025)" /><published>2025-04-06T00:00:00+00:00</published><updated>2025-04-06T00:00:00+00:00</updated><id>https://theanega.github.io/2025/04/06/varios-marzo-2025</id><content type="html" xml:base="https://theanega.github.io/2025/04/06/varios-marzo-2025.html"><![CDATA[<ul>
   <li>Lin Manuel Miranda’s “Pelitos” en la temporada 7 de Big Mouth es <a href="https://www.youtube.com/watch?v=QdvrbNg2W5c&amp;ab_channel=BigMouthCast-Topic">brutal</a></li>
   <li>This quote from a presentation: <a href="https://english.stackexchange.com/questions/606293/where-does-this-proverb-come-from-if-you-want-to-go-fast-go-alone-if-you-wan">If you want to go fast, go alone, if you want to go far, go together”</a> Not sure where it comes from.</li>
   <li>Companies <a href="https://x.com/waitbutwhy/status/1894499857777496091?s=46">list</a> by Tim Urban.</li>
