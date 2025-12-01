@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
 Hello, nice to meet you. I am currently doing my PhD in Biomedical Engineering at the [Radiomics Group](https://radiomicsgroup.github.io/) in Vall d'Hebron Institue of Oncology (Barcelona, Spain). Here you can find more about the [research](research). Here you can find other [things](notes). You can reach me at [oliviaprior@vhio.net](mailto:oliviaprior@vhio.net). 
