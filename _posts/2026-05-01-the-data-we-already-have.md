@@ -1,5 +1,6 @@
 ---
 title: The data we already have
+date: 2026-05-01 00:00:00 +0200
 planted: 2026-05-01
 last_tended: 2026-05-01
 tags:
