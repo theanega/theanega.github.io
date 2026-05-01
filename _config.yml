@@ -5,6 +5,7 @@ url: "https://theanega.github.io"
 theme: minima
 
 # Build settings
+future: true
 markdown: kramdown
 kramdown:
   input: GFM
