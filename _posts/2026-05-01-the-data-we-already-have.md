@@ -1,12 +1,12 @@
 ---
 title: The data we already have
-date: 2026-05-01 00:00:00 +0200
 planted: 2026-05-01
 last_tended: 2026-05-01
 tags:
   - medical-imaging
   - data
   - research
+publish: true
 ---
 
 In early 2024, my labmate published a [method](https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00108-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379124001083%3Fshowall%3Dtrue) to improve brain tumor diagnosis using standard-of-care MRI. There was a press release. A television crew came to the institute. For about a week, my boss's phone didn't stop ringing. Then we stopped working on the project. The results were positive and the method wasn't wrong, but the work stopped because we didn't have enough data to seriously consider taking the algorithm to clinical use.
