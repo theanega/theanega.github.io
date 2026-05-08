@@ -4,9 +4,9 @@ title: Research
 permalink: /research/
 ---
 
-My PhD focused on CT-based habitat imaging to quantify intratumor heterogeneity in colorectal liver metastases — specifically, whether spatial patterns within a tumor can predict treatment response and survival in patients receiving anti-angiogenic therapy.
+My PhD focused on CT-based habitat imaging to quantify intratumor heterogeneity in colorectal liver metastases: whether spatial patterns within a tumor can predict treatment response and survival in patients receiving anti-angiogenic therapy.
 
-The thesis introduces a reproducible, biologically grounded approach to CT habitat computation. Key findings: handcrafted radiomics features outperform deep learning for habitat computation, and rim entropy — a measure of heterogeneity at the tumor boundary — predicts bevacizumab response in metastatic colorectal cancer.
+The thesis introduces a reproducible, biologically grounded approach to CT habitat computation. Key findings: handcrafted radiomics features outperform deep learning for habitat computation, and rim entropy (a measure of heterogeneity at the tumor boundary) predicts bevacizumab response in metastatic colorectal cancer.
 
 Supervised by [Dr. Raquel Pérez López](https://radiomicsgroup.github.io/raquel-perez-lopez/) and defended in February 2026 at the Universitat Politècnica de Catalunya.
 
