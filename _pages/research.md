@@ -4,13 +4,12 @@ title: Research
 permalink: /research/
 ---
 
-My current research is focused on capturing intratumor heterogeneity of liver metastases with radiology. Briefly I'm trying to answer the following questions:
+My PhD focused on CT-based habitat imaging to quantify intratumor heterogeneity in colorectal liver metastases — specifically, whether spatial patterns within a tumor can predict treatment response and survival in patients receiving anti-angiogenic therapy.
 
-- Can we capture intratumor heterogeneity with a CT scan in a reproducible way?
-  - Example (ideal world): *we can quantify necrosis and fibrosis phenotypes in liver metastases regardless of the acquisition protocol.* 
-  
-- If yes, is this intratumor heterogeneity clinically relevant (i.e. specific enough to indicate something useful to add value to the patient?) 
-  - Example (ideal world): *in the context of unresectable metastatic colorectal cancer, if a patient has synchronous liver metastases with a necrotic core then this could indicate that the metastases are desmoplastis and giving an antiangiogenic to the patient wouldn't add extra benefit.*
-  
+The thesis introduces a reproducible, biologically grounded approach to CT habitat computation. Key findings: handcrafted radiomics features outperform deep learning for habitat computation, and rim entropy — a measure of heterogeneity at the tumor boundary — predicts bevacizumab response in metastatic colorectal cancer.
 
-Note that intratumor heterogeneity doesn't have the same meaning at different scales. This [review](https://doi.org/10.1016/j.semcdb.2016.10.001) is a very good starting point if you're interested in the topic. If you want to discuss any thoughts regarding this topic feel free to reach out. 
+Supervised by [Dr. Raquel Pérez López](https://radiomicsgroup.github.io/raquel-perez-lopez/) and defended in February 2026 at the Universitat Politècnica de Catalunya.
+
+[Thesis PDF](https://drive.google.com/file/d/1jSGIjJ8TzO6_yvh_048aeZ6L-cABOH9X/view?usp=sharing) · [Thesis slides](https://docs.google.com/presentation/d/1pygXBMjZD6uRNilFx59oRakQVz_ZfN90/present) · [Google Scholar](https://scholar.google.com/citations?user=-H_0M20AAAAJ&hl=es)
+
+<!-- CV link will be added here once updated -->

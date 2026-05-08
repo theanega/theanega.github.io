@@ -3,7 +3,6 @@ layout: default
 title: Notes
 permalink: /notes/
 ---
-This is some sort of digital garden: a collection of evolving notes on different subjects.
 
 
 

@@ -4,6 +4,10 @@ title: Home
 permalink: /
 ---
 
-Hello, nice to meet you. I am currently doing my PhD in Biomedical Engineering at the [Radiomics Group](https://radiomicsgroup.github.io/) in Vall d'Hebron Institue of Oncology (Barcelona, Spain). Here you can find more about the [research](research). Here you can find other [things](notes). You can reach me at [oliviaprior@vhio.net](mailto:oliviaprior@vhio.net). 
+Hello. I am a biomedical engineer and PhD in medical imaging. I recently defended my thesis at the [Radiomics Group](https://radiomicsgroup.github.io/) at Vall d'Hebron Institute of Oncology (VHIO) in Barcelona, where I studied CT-based habitat imaging to quantify tumor heterogeneity in colorectal liver metastases.
 
-*If you got here via Fulbright or LaCaixa and are thinking of applying to the LaCaixa INPhINIT Fellowships or Fulbright (Ampliación de Estudios) feel free to contact me for tips/statement of purpose feedback/mock interviews. I also recommend you visit [accedeabecas.org](https://www.accedeabecas.org/).*
+I am currently on a career break exploring the problem of health data infrastructure — specifically, why clinical data that already exists doesn't reach research, and whether giving patients agency over their own data could change that.
+
+You can find my [research](research) and [notes](notes) in the tabs above. You can reach me at [theanega@gmail.com](mailto:theanega@gmail.com).
+
+*If you got here via Fulbright or La Caixa and are thinking of applying, feel free to reach out — I'm happy to give feedback on statements of purpose or mock interviews. I also recommend [accedeabecas.org](https://www.accedeabecas.org/).*
