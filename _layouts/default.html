@@ -6,8 +6,10 @@
             <h1>Olivia Prior</h1>
             <nav>
                 <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
-                <a href="/research" {% if page.url == "/research" %}class="active"{% endif %}>Research</a>
-                <a href="/notes" {% if page.url == "/notes" %}class="active"{% endif %}>Notes</a>
+                <a href="/research" {% if page.url == "/research/" or page.url == "/research" %}class="active"{% endif %}>Research</a>
+                <a href="/notes" {% if page.url == "/notes/" or page.url == "/notes" %}class="active"{% endif %}>Notes</a>
+                <a href="/talks" {% if page.url == "/talks/" or page.url == "/talks" %}class="active"{% endif %}>Talks</a>
+                <a href="/lists" {% if page.url == "/lists/" or page.url == "/lists" %}class="active"{% endif %}>Lists</a>
             </nav>
         </header>
 
@@ -16,25 +18,27 @@
         </main>
 
         <footer>
-            <div class="social-icons">
-                <a href="{{ site.social.github }}" target="_blank">
-                    <img src="/assets/images/github.svg" alt="GitHub">
-                </a>
-                <a href="{{ site.social.bluesky }}" target="_blank">
-                    <img src="/assets/images/bluesky.svg" alt="Bluesky">
-                </a>
-                <a href="{{ site.social.googlescholar }}" target="_blank">
-                    <img src="/assets/images/googlescholar.svg" alt="Google Scholar">
-                </a>
-                <a href="{{ site.social.linkedin }}" target="_blank">
-                    <img src="/assets/images/linkedin.svg" alt="LinkedIn">
-                </a>
-                <a href="{{ site.social.twitter }}" target="_blank">
-                    <img src="/assets/images/twitter.svg" alt="Twitter">
-                </a>
+            <div class="logo-band">
+                <div class="social-icons">
+                    <a href="{{ site.social.github }}" target="_blank">
+                        <img src="/assets/images/github.svg" alt="GitHub">
+                    </a>
+                    <a href="{{ site.social.bluesky }}" target="_blank">
+                        <img src="/assets/images/bluesky.svg" alt="Bluesky">
+                    </a>
+                    <a href="{{ site.social.googlescholar }}" target="_blank">
+                        <img src="/assets/images/googlescholar.svg" alt="Google Scholar">
+                    </a>
+                    <a href="{{ site.social.linkedin }}" target="_blank">
+                        <img src="/assets/images/linkedin.svg" alt="LinkedIn">
+                    </a>
+                    <a href="{{ site.social.twitter }}" target="_blank">
+                        <img src="/assets/images/twitter.svg" alt="Twitter">
+                    </a>
+                </div>
             </div>
-            <div class="copyright">
-                © {{ site.time | date: "%Y" }} Olivia Prior
+            <div class="footer-bottom">
+                Give me (anonymous) <a href="https://forms.gle/B79ZVBzp4zi1KeRQ9" target="_blank">feedback</a>! &middot; &copy; {{ site.time | date: "%Y" }} Olivia Prior
             </div>
         </footer>
     </body>
