@@ -1,8 +1,10 @@
 title: Olivia Prior
 description: Just sharing.
-baseurl: "" 
+baseurl: ""
 url: "https://theanega.github.io"
-theme: minima
+
+# Post URLs (explicit = stable if defaults ever change)
+permalink: "/:year/:month/:day/:title.html"
 
 # Build settings
 future: true
@@ -10,15 +12,22 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-nav:
-  - title: Research
+# Primary navigation (order: About / Blog / Research / Projects / Lists / Talks / CV)
+header_nav:
+  - label: About
+    url: /
+  - label: Blog
+    url: /blog/
+  - label: Research
     url: /research/
-  - title: Notes
-    url: /notes/
-  - title: CV  # New entry
-    url: {{ site.resume }} # New entry
-
-
+  - label: Projects
+    url: /projects/
+  - label: Lists
+    url: /lists/
+  - label: Talks
+    url: /talks/
+  - label: CV
+    url: /cv/
 
 # Social links
 social:
@@ -28,7 +37,7 @@ social:
   linkedin: https://linkedin.com/in/oliviaprior
   twitter: https://twitter.com/theanega
 
-# Resume links
+# Resume / CV asset (optional; CV page will be expanded later)
 resume: /assets/files/resume.pdf
 
 # Archives
@@ -60,3 +69,8 @@ include:
   - _research
   - _tags
   - assets
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives

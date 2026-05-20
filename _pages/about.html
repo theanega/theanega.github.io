@@ -1,0 +1,23 @@
+---
+permalink: /about/
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirecting…</title>
+  <link rel="canonical" href="{{ '/' | absolute_url }}">
+  <meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
+  <script>
+    (function () {
+      var u = {{ '/' | relative_url | jsonify }};
+      if (u) location.replace(u);
+    })();
+  </script>
+</head>
+<body>
+  <p><a href="{{ '/' | relative_url }}">Continue to home</a>.</p>
+</body>
+</html>

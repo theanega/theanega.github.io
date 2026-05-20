@@ -2,44 +2,48 @@
 layout: default
 ---
 <article class="post">
+  <p class="post-back">
+    <a href="{{ '/blog/' | relative_url }}">← Blog</a>
+  </p>
+
   <header class="note-header">
-    <h1>{{ page.title }}</h1> 
+    <h1>{{ page.title }}</h1>
 
     <div class="note-metadata">
       {% if page.planted %}
-      <span class="planted-date">
-        Planted: {{ page.planted | date: "%Y-%m-%d" }}
-      </span>
+        <span class="planted-date">
+          Planted: <time datetime="{{ page.planted | date_to_xmlschema }}">{{ page.planted | date: "%Y.%m.%d" }}</time>
+        </span>
       {% endif %}
 
       {% if page.last_tended %}
-      <span class="last-tended">
-        Last tended: {{ page.last_tended | date: "%Y-%m-%d" }}
-      </span>
+        <span class="last-tended">
+          Last tended: <time datetime="{{ page.last_tended | date_to_xmlschema }}">{{ page.last_tended | date: "%Y.%m.%d" }}</time>
+        </span>
       {% endif %}
 
       {% if page.tags != empty %}
-      <div class="tags">
-        {% for tag in page.tags %}
-        <span class="tag">{{ tag }}</span> 
-        {% endfor %}
-      </div>
+        <div class="tags">
+          {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
       {% endif %}
     </div>
   </header>
 
-  <div class="note-content">
+  <div class="note-content prose">
     {{ content }}
   </div>
 
   {% if page.backlinks %}
-  <footer class="note-footer">
-    <h2>Connected Notes</h2>
-    <ul class="backlinks">
-      {% for backlink in page.backlinks %}
-      <li><a href="{{ backlink.url }}">{{ backlink.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </footer>
+    <footer class="note-footer">
+      <h2>Connected Notes</h2>
+      <ul class="backlinks">
+        {% for backlink in page.backlinks %}
+          <li><a href="{{ backlink.url }}">{{ backlink.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </footer>
   {% endif %}
 </article>
