@@ -2,7 +2,8 @@
 
 # Configuration
 OBSIDIAN_SCRIPT="obsidian_to_jekyll.py"
-WEBSITE_DIR="/mnt/c/Users/oprio/Documents/_website"
+SOURCE_DIR="${OBSIDIAN_NOTES_DIR:-/mnt/c/Users/oprio/Documents/git_obsidian/__main/_notes/7_published}"
+WEBSITE_DIR="${WEBSITE_DIR:-/mnt/c/Users/oprio/Documents/_website}"
 COMMIT_MESSAGE="Add new post from Obsidian"
 
 # Print header
@@ -14,10 +15,10 @@ echo ""
 # Check if a specific file was provided
 if [ "$1" != "" ]; then
     echo "Processing specific file: $1"
-    python "$OBSIDIAN_SCRIPT" --file "$1"
+    python "$OBSIDIAN_SCRIPT" --source "$SOURCE_DIR" --file "$1"
 else
     echo "Processing all publishable files"
-    python "$OBSIDIAN_SCRIPT"
+    python "$OBSIDIAN_SCRIPT" --source "$SOURCE_DIR"
 fi
 
 # Check if the script was successful
