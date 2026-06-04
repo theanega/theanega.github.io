@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <!-- so that the website looks good with any screen size --><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <head>
+  <meta charset="utf-8">
+  <script>
+    (function () {
+      try {
+        var k = "theme-preference";
+        var v = localStorage.getItem(k);
+        var d =
+          v === "light" || v === "dark"
+            ? v
+            : window.matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light";
+        document.documentElement.setAttribute("data-theme", d);
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "light");
+      }
+    })();
+  </script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>The data we already have | Olivia Prior</title>
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="The data we already have" />
@@ -21,100 +37,136 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-05-01T00:00:00+00:00","datePublished":"2026-05-01T00:00:00+00:00","description":"In early 2024, my labmate published a method to improve brain tumor diagnosis using standard-of-care MRI. There was a press release. A television crew came to the institute. For about a week, my boss’s phone didn’t stop ringing. Then we stopped working on the project. The results were positive and the method wasn’t wrong, but the work stopped because we didn’t have enough data to seriously consider taking the algorithm to clinical use. This is common in medical imaging research. During my PhD I watched a pancancer project narrow itself, almost without anyone deciding, into a colorectal-only project, because that was the data we had: an approval already signed with the colorectal department in our hospital. I also watched a paper come back from review with the most significant criticism being the absence of an external test set, which we could not produce. None of this was dramatic. It was the everyday of the field. The worst consequence is not the abandoned projects but what it does to your imagination. Most of the work I have seen, and most of the work I have done, has been shaped more by the data we can access than by what we want to know. You learn, after a while, to adjust your curiosity. You think of a question, and then you think: is there data for this? And if there is not, you think of a different question. So medical imaging research lacks data. That is not news. The bottleneck I want to describe here is more specific: the data exists. It just doesn’t move. Every CT and MRI scanner in every public hospital in Spain produces images, every hour of the day, every day of the year. These images serve their primary purpose (clinical care) and then they sit on hospital servers, accumulating. Having now experienced what they can do for research, it feels like a waste that so few of them are ever used a second time. They contain so much information, even when collected before any research project was defined. The brain tumor project I described was done entirely with retrospective data. This is the most ordinary thing anyone in the field will tell you, and it took me a long time to see it as a problem we could actually work to solve, rather than a fixed fact of the field. Accessing medical image data, even as a researcher inside the affiliated institution, is extraordinarily slow and sometimes unsuccessful. You apply for approvals. You write protocols. You specify in advance what you will do with the data. You agree to conditions about storage and transfer. You wait. Sometimes the answer is yes, eventually. Sometimes it is no, or not now, or not in that form. The patient is not entirely absent from this process, but they are not active. They sign a consent form, usually agreeing to a specific study within a single institution. After that, the institution stores the data and holds the power to share it, or not, with other researchers. Most of us write the same polite fiction in our papers: data will be shared upon request. People are, understandably, protective of the data because data leads to papers, papers lead to funding, and funding enables the work. Hospital-affiliated groups have built careers on privileged access to their institutions’ patients. But this power we, researchers, have over data is wrong. How is it that somewhere along the way we accepted the idea that a measurement taken inside a hospital belongs to the hospital? Not absolutely, I know, but in practice yes: the hospital decides where the data goes, if anywhere, because the hospital bears the legal responsibility. The patient, whose body produced the measurement, is not considered an active participant in the decision. I think the reason this hasn’t changed is that nobody has actually asked the patients in any meaningful way. I have never met a patient who was offered a way to donate their anonymized imaging study to a public research archive. I have met many patients who would do it if asked. The option does not exist because the system has never been built to ask them. A recent opinion article in PLOS Digital Health states that “framing data sharing solely within the concept of individual ownership is insufficient,” that “true individual control is impractical and risks placing an undue burden on individuals to protect their data from misuse,” and that the answer is collaborative governance: data access committees, ethics boards, third-party intermediaries who represent patient interests by proxy. They cite UK Biobank’s Ethics and Governance Council as the model, where participants consent broadly at enrollment and an independent body speaks for them thereafter. I disagree. UK Biobank is a genuinely successful model, but we do not yet have the evidence to conclude that a patient-initiated model would fail, because nobody has built one to test it. The argument against patient initiation is currently theoretical. Granular control over every secondary use of one’s data over decades is impractical, but a patient-initiated model does not have to look like that. It can be a single, one-time decision at the point of care, when an imaging study has already served its clinical purpose. A button with a simple message: would you like to add this study, anonymized, to a public research archive? That does not seem to me as a burdensome decision. It is structurally similar to the one Spanish families already make about organ donation at the moment of death, and they make it, eight times out of ten, because the system is built to make the conversation possible. A patient-initiated model would dissolve several problems at once. If the patient is exercising a right rather than the hospital granting access, institutional liability disappears. The researcher’s competitive edge also disappears, because the dataset is no longer held inside one institution. And the patient, who actually generated the measurement, becomes an agent rather than a subject. My hypothesis is the following: when given a clear, low-friction option to donate an anonymized imaging study after it has served its clinical purpose, a meaningful proportion of patients will choose to do so. I genuinely don’t know if this is true. It might fail. Patients might not engage with the option. Or they might engage, but the resulting data quality might not be good enough to be useful. Both would be informative outcomes. The point is that the experiment has never been run. In Catalonia, every patient in the public health system has access to La Meva Salut, a digital portal that already lets them view lab reports, book appointments, and access their imaging results. It was widely adopted during COVID when we needed it to verify our digital vaccination certificates, and it has remained in active use. So part of the technical infrastructure for patient-initiated donation already exists. After an imaging study has served its clinical purpose, a patient could see a clear option in La Meva Salut: would you like to donate an anonymized version of this study to a public research archive? If they say yes, the image, paired with anonymized minimal metadata (age, sex, anatomical region, diagnosis), is added to a Catalan open data bank as a new public dataset under a standard license. The primary outcome of this pilot would not be a perfect dataset, or even a large one. It would be a measure of how many patients choose to donate when asked. A pilot at the scale of a single Catalan hospital would generate enough data to answer the donation-rate question within months. If the rate is meaningful, this could become the start of a new public archive of medical imaging data. If it is really successful, in the long-term it could go beyond medical images to other types of data. But medical images are a good place to start. They are easily anonymized, easy to explain to patients as a thing being shared, and the research community already uses standard formats. If the experiment is not successful, we will have learned something important about the limits of patient-driven models. Two things make this experiment feasible today: COVID and AI. We understand, in a way we did not in 2019, why medical research matters and why data flow during a crisis is not optional. The cultural moment for asking patients to participate as agents, not subjects, is now. And the most useful side effect COVID has left us in Catalonia is La Meva Salut, a patient portal that exists and is trusted. As for AI, we now have a clearer language for talking about data systems and recognizing the role of data in AI’s recent successes. AlphaFold, which won the Nobel Prize, was built on decades of openly released protein structures. In medical imaging, one of the most cited papers, nnU-Net, was developed and validated on dozens of public datasets, showing what becomes possible when the data is actually available. It is more clear now than it has ever been that the field as a whole is bottlenecked on data access rather than on method. The architectures are smart enough. They need better and more data. The brain tumor project did not resume. We moved on to other questions, other datasets. I do not think of it as a failure, exactly. It was a normal outcome, given the conditions. But it has stayed with me as a small example of a larger pattern. There is no shortage of data in medicine. There is just a shortage of ways to use it. This shortage is the result of choices, and choices can be changed. Until they are, many more projects will end the way that one did: not with an answer, but with an absence.","headline":"The data we already have","mainEntityOfPage":{"@type":"WebPage","@id":"https://theanega.github.io/2026/05/01/the-data-we-already-have.html"},"url":"https://theanega.github.io/2026/05/01/the-data-we-already-have.html"}</script>
 <!-- End Jekyll SEO tag -->
-<!-- All your stylesheets -->
-    <link rel="stylesheet" href="/assets/main.css">
-    <link rel="stylesheet" href="/assets/css/notes.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    
-    
-    <!-- Your favicon -->
-    <link rel="icon" type="image/png" href="/assets/images/theanega_Small_Logo.png">
-    
-    <!-- Feed meta and analytics --><link type="application/atom+xml" rel="alternate" href="https://theanega.github.io/feed.xml" title="Olivia Prior" /><!-- Your custom styles -->
-    <style>
-        body {
-            max-width: 800px;
-            margin: 2rem auto;
-            /* ... rest of your styles ... */
-        }
-        header {
-            margin-bottom: 2.5rem;
-        }
-        main {
-            margin-top: 1.5rem;
-        }
-        header h1 {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 300;
-        }
-        .social-icons {
-          display: flex;
-          gap: 1rem;
-          justify-content: center;
-        }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="icon" type="image/png" href="/assets/images/theanega_Small_Logo.png"><link type="application/atom+xml" rel="alternate" href="https://theanega.github.io/feed.xml" title="Olivia Prior" /></head>
 
-        .social-icons img {
-            width: 24px;  /* You can adjust this value */
-            height: 24px; /* Keep it the same as width for perfect squares */
-        }
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-        .social-icons a {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-        }
-    </style>
-</head>
-    <body>
-        <header>
-            <h1>Olivia Prior</h1>
-            <nav>
-                <a href="/" >Home</a>
-                <a href="/research" >Research</a>
-                <a href="/notes" >Notes</a>
-                <a href="/talks" >Talks</a>
-                <a href="/lists" >Lists</a>
-            </nav>
-        </header>
+    <div class="site-wrap">
+      <header class="site-header">
+        <a class="site-name" href="/">Olivia Prior</a>
+        <nav class="site-nav-wrap" aria-label="Primary">
+          <ul class="site-nav">
+            
+              
+              <li>
+                <a
+                  href="/"
+                  
+                >About</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/blog/"
+                  
+                >Blog</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/research/"
+                  
+                >Research</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/projects/"
+                  
+                >Projects</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/lists/"
+                  
+                >Lists</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/talks/"
+                  
+                >Talks</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/cv/"
+                  
+                >CV</a>
+              </li>
+            
+          </ul>
+        </nav>
 
-        <main>
-            <article class="post">
+        <hr class="site-rule" />
+      </header>
+
+      <main id="main">
+        
+          <article class="post">
+  <p class="post-back">
+    <a href="/blog/">← Blog</a>
+  </p>
+
   <header class="note-header">
-    <h1>The data we already have</h1> 
+    <h1>The data we already have</h1>
 
     <div class="note-metadata">
       
-      <span class="planted-date">
-        Planted: 2026-05-01
-      </span>
+        <span class="planted-date">
+          Planted: <time datetime="2026-05-01T00:00:00+00:00">2026.05.01</time>
+        </span>
       
 
       
-      <span class="last-tended">
-        Last tended: 2026-05-01
-      </span>
+        <span class="last-tended">
+          Last tended: <time datetime="2026-05-01T00:00:00+00:00">2026.05.01</time>
+        </span>
       
 
       
-      <div class="tags">
-        
-        <span class="tag">medical-imaging</span> 
-        
-        <span class="tag">data</span> 
-        
-        <span class="tag">research</span> 
-        
-      </div>
+        <div class="tags">
+          
+            <span class="tag">medical-imaging</span>
+          
+            <span class="tag">data</span>
+          
+            <span class="tag">research</span>
+          
+        </div>
       
     </div>
   </header>
 
-  <div class="note-content">
+  <div class="note-content prose">
     <p>In early 2024, my labmate published a <a href="https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00108-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379124001083%3Fshowall%3Dtrue">method</a> to improve brain tumor diagnosis using standard-of-care MRI. There was a press release. A television crew came to the institute. For about a week, my boss’s phone didn’t stop ringing. Then we stopped working on the project. The results were positive and the method wasn’t wrong, but the work stopped because we didn’t have enough data to seriously consider taking the algorithm to clinical use.</p>
 
 <p>This is common in medical imaging research. During my PhD I watched a pancancer project narrow itself, almost without anyone deciding, into a colorectal-only project, because that was the data we had: an approval already signed with the colorectal department in our hospital. I also watched a paper come back from review with the most significant criticism being the absence of an external test set, which we could not produce. None of this was dramatic. It was the everyday of the field. The worst consequence is not the abandoned projects but what it does to your imagination. Most of the work I have seen, and most of the work I have done, has been shaped more by the data we can access than by what we want to know. You learn, after a while, to adjust your curiosity. You think of a question, and then you think: is there data for this? And if there is not, you think of a different question.</p>
@@ -143,31 +195,49 @@
 
   
 </article>
-        </main>
 
-        <footer>
-            <div class="logo-band">
-                <div class="social-icons">
-                    <a href="https://github.com/theanega" target="_blank">
-                        <img src="/assets/images/github.svg" alt="GitHub">
-                    </a>
-                    <a href="https://bsky.app/profile/theanega.bsky.social" target="_blank">
-                        <img src="/assets/images/bluesky.svg" alt="Bluesky">
-                    </a>
-                    <a href="https://scholar.google.com/citations?user=-H_0M20AAAAJ&hl=es" target="_blank">
-                        <img src="/assets/images/googlescholar.svg" alt="Google Scholar">
-                    </a>
-                    <a href="https://linkedin.com/in/oliviaprior" target="_blank">
-                        <img src="/assets/images/linkedin.svg" alt="LinkedIn">
-                    </a>
-                    <a href="https://twitter.com/theanega" target="_blank">
-                        <img src="/assets/images/twitter.svg" alt="Twitter">
-                    </a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                Give me (anonymous) <a href="https://forms.gle/B79ZVBzp4zi1KeRQ9" target="_blank">feedback</a>! &middot; &copy; 2026 Olivia Prior
-            </div>
-        </footer>
-    </body>
+        
+      </main>
+
+      <footer class="site-footer">
+        <div class="logo-band">
+          <div class="social-icons">
+            <a href="https://github.com/theanega" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/github.svg" alt="GitHub">
+            </a>
+            <a href="https://bsky.app/profile/theanega.bsky.social" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/bluesky.svg" alt="Bluesky">
+            </a>
+            <a href="https://scholar.google.com/citations?user=-H_0M20AAAAJ&hl=es" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/googlescholar.svg" alt="Google Scholar">
+            </a>
+            <a href="https://linkedin.com/in/oliviaprior" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://twitter.com/theanega" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/twitter.svg" alt="Twitter">
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          Give me (anonymous)
+          <a href="https://forms.gle/B79ZVBzp4zi1KeRQ9" target="_blank" rel="noopener noreferrer">feedback</a>
+          &middot; &copy; 2026 Olivia Prior
+          <span class="footer-bottom__sep" aria-hidden="true"> · </span>
+          <button
+            type="button"
+            class="theme-toggle"
+            data-theme-toggle
+            aria-label="Toggle color theme"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/assets/js/theme.js" defer></script>
+  </body>
 </html>

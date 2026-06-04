@@ -2,7 +2,7 @@
 
 # Configuration
 OBSIDIAN_SCRIPT="obsidian_to_jekyll.py"
-SOURCE_DIR="${OBSIDIAN_NOTES_DIR:-/mnt/c/Users/oprio/Documents/git_obsidian/__main/_notes/7_published}"
+SOURCE_DIR="${OBSIDIAN_NOTES_DIR:-/mnt/c/Users/oprio/Documents/git_obsidian/notes}"
 WEBSITE_DIR="${WEBSITE_DIR:-/mnt/c/Users/oprio/Documents/_website}"
 COMMIT_MESSAGE="Add new post from Obsidian"
 

@@ -9,7 +9,7 @@ $ErrorActionPreference = "Stop"
 
 $RepoDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $PublisherScript = Join-Path $RepoDir "obsidian_to_jekyll.py"
-$SourceDir = "C:\Users\oprio\Documents\git_obsidian\__main\_notes\7_published"
+$SourceDir = "C:\Users\oprio\Documents\git_obsidian\notes"
 $CommitMessage = "Publish notes from Obsidian"
 
 function Invoke-PublishOnce {

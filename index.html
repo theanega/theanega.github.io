@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <!-- so that the website looks good with any screen size --><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <head>
+  <meta charset="utf-8">
+  <script>
+    (function () {
+      try {
+        var k = "theme-preference";
+        var v = localStorage.getItem(k);
+        var d =
+          v === "light" || v === "dark"
+            ? v
+            : window.matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light";
+        document.documentElement.setAttribute("data-theme", d);
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "light");
+      }
+    })();
+  </script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Home | Olivia Prior</title>
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Home" />
@@ -20,101 +36,156 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","description":"Just sharing.","headline":"Home","name":"Olivia Prior","url":"https://theanega.github.io/"}</script>
 <!-- End Jekyll SEO tag -->
-<!-- All your stylesheets -->
-    <link rel="stylesheet" href="/assets/main.css">
-    <link rel="stylesheet" href="/assets/css/notes.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    
-    
-    <!-- Your favicon -->
-    <link rel="icon" type="image/png" href="/assets/images/theanega_Small_Logo.png">
-    
-    <!-- Feed meta and analytics --><link type="application/atom+xml" rel="alternate" href="https://theanega.github.io/feed.xml" title="Olivia Prior" /><!-- Your custom styles -->
-    <style>
-        body {
-            max-width: 800px;
-            margin: 2rem auto;
-            /* ... rest of your styles ... */
-        }
-        header {
-            margin-bottom: 2.5rem;
-        }
-        main {
-            margin-top: 1.5rem;
-        }
-        header h1 {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 300;
-        }
-        .social-icons {
-          display: flex;
-          gap: 1rem;
-          justify-content: center;
-        }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="icon" type="image/png" href="/assets/images/theanega_Small_Logo.png"><link type="application/atom+xml" rel="alternate" href="https://theanega.github.io/feed.xml" title="Olivia Prior" /></head>
 
-        .social-icons img {
-            width: 24px;  /* You can adjust this value */
-            height: 24px; /* Keep it the same as width for perfect squares */
-        }
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-        .social-icons a {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-        }
-    </style>
-</head>
-    <body>
-        <header>
-            <h1>Olivia Prior</h1>
-            <nav>
-                <a href="/" class="active">Home</a>
-                <a href="/research" >Research</a>
-                <a href="/notes" >Notes</a>
-                <a href="/talks" >Talks</a>
-                <a href="/lists" >Lists</a>
-            </nav>
-        </header>
+    <div class="site-wrap">
+      <header class="site-header">
+        <a class="site-name" href="/">Olivia Prior</a>
+        <nav class="site-nav-wrap" aria-label="Primary">
+          <ul class="site-nav">
+            
+              
+              <li>
+                <a
+                  href="/"
+                  aria-current="page"
+                >About</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/blog/"
+                  
+                >Blog</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/research/"
+                  
+                >Research</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/projects/"
+                  
+                >Projects</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/lists/"
+                  
+                >Lists</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/talks/"
+                  
+                >Talks</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/cv/"
+                  
+                >CV</a>
+              </li>
+            
+          </ul>
+        </nav>
 
-        <main>
-            <p>Hello. I am a biomedical engineer and PhD in medical imaging. I recently defended my thesis at the <a href="https://radiomicsgroup.github.io/">Radiomics Group</a> at Vall d’Hebron Institute of Oncology (VHIO) in Barcelona, where I studied CT-based habitat imaging to quantify tumor heterogeneity in colorectal liver metastases.</p>
+        <hr class="site-rule" />
+      </header>
 
-<p>I am currently on a career break exploring the problem of health data infrastructure: specifically, why clinical data that already exists doesn’t reach research, and whether giving patients agency over their own data could change that.</p>
+      <main id="main">
+        
+          <div class="prose"><p>I am a biomedical engineer. I recently defended my PhD thesis at the <a href="https://radiomicsgroup.github.io/">Radiomics Group</a> at <a href="https://vhio.net/">Vall d’Hebron Institute of Oncology (VHIO)</a>, where I studied CT-based habitat imaging to quantify tumor heterogeneity in colorectal liver metastases.</p>
 
-<p>You can find my <a href="research">research</a> and <a href="notes">notes</a> in the tabs above. You can reach me at <a href="mailto:theanega@gmail.com">theanega@gmail.com</a>.</p>
+<p>I am currently on a career break exploring the <a href="/2026/05/01/the-data-we-already-have.html">problem</a> of health data infrastructure: specifically, why clinical data that already exists doesn’t reach research, and whether giving patients agency over their own data could change that. If you’re interested in discussing this idea or have any insights on how to move it forward, I would love to talk to you. My email is <a href="mailto:theanega@gmail.com">theanega@gmail.com</a>.</p>
 
-<p><em>If you got here via Fulbright or La Caixa and are thinking of applying, feel free to reach out. I’m happy to give feedback on statements of purpose or mock interviews. I also recommend <a href="https://www.accedeabecas.org/">accedeabecas.org</a>.</em></p>
+<hr />
+<p>Soy ingeniera biomédica. Hace poco defendí mi tesis doctoral en el grupo de <a href="https://radiomicsgroup.github.io/">Radiomics</a> del <a href="https://vhio.net/">Instituto de Oncología de Vall d’Hebron (VHIO)</a>, donde me centré en el uso de imágenes de TAC para cuantificar la heterogeneidad tumoral en metástasis hepáticas de cáncer colorrectal.</p>
 
-        </main>
+<p>Actualmente estoy en una pausa profesional explorando el <a href="/2026/05/01/the-data-we-already-have.html">problema</a> de la infraestructura de datos sanitarios: concretamente, por qué los datos clínicos que ya existen no llegan a la investigación, y si dar a los pacientes mayor control sobre sus propios datos podría cambiar esta situación. Si estás interesado/a en hablar sobre este tema o tienes alguna idea de cómo avanzar, me encantaría hablar contigo. Mi email es theanega@gmail.com.</p>
 
-        <footer>
-            <div class="logo-band">
-                <div class="social-icons">
-                    <a href="https://github.com/theanega" target="_blank">
-                        <img src="/assets/images/github.svg" alt="GitHub">
-                    </a>
-                    <a href="https://bsky.app/profile/theanega.bsky.social" target="_blank">
-                        <img src="/assets/images/bluesky.svg" alt="Bluesky">
-                    </a>
-                    <a href="https://scholar.google.com/citations?user=-H_0M20AAAAJ&hl=es" target="_blank">
-                        <img src="/assets/images/googlescholar.svg" alt="Google Scholar">
-                    </a>
-                    <a href="https://linkedin.com/in/oliviaprior" target="_blank">
-                        <img src="/assets/images/linkedin.svg" alt="LinkedIn">
-                    </a>
-                    <a href="https://twitter.com/theanega" target="_blank">
-                        <img src="/assets/images/twitter.svg" alt="Twitter">
-                    </a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                Give me (anonymous) <a href="https://forms.gle/B79ZVBzp4zi1KeRQ9" target="_blank">feedback</a>! &middot; &copy; 2026 Olivia Prior
-            </div>
-        </footer>
-    </body>
+<hr />
+<p>Soc enginyera biomèdica. Fa poc vaig defensar la meva tesi doctoral al grup de <a href="https://radiomicsgroup.github.io/">Radiomics</a> de l’<a href="https://vhio.net/">Institut d’Oncologia de Vall d’Hebron (VHIO)</a>, on vaig estudiar l’ús d’imatges TAC quantificar l’heterogeneïtat tumoral en metàstasis hepàtiques de càncer colorectal.</p>
+
+<p>Actualment estic fent una pausa professional per explorar el <a href="/2026/05/01/the-data-we-already-have.html">problema</a> de la infraestructura de dades sanitàries: concretament, per què les dades clíniques que ja existeixen no arriben a la recerca, i si donar als pacients més control sobre les seves pròpies dades podria canviar aquesta situació. Si estàs interessat/da en parlar sobre el tema o tens alguna idea de com avançar, m’encantaria parlar amb tu. El meu email és theanega@gmail.com.</p>
+</div>
+        
+      </main>
+
+      <footer class="site-footer">
+        <div class="logo-band">
+          <div class="social-icons">
+            <a href="https://github.com/theanega" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/github.svg" alt="GitHub">
+            </a>
+            <a href="https://bsky.app/profile/theanega.bsky.social" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/bluesky.svg" alt="Bluesky">
+            </a>
+            <a href="https://scholar.google.com/citations?user=-H_0M20AAAAJ&hl=es" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/googlescholar.svg" alt="Google Scholar">
+            </a>
+            <a href="https://linkedin.com/in/oliviaprior" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://twitter.com/theanega" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/twitter.svg" alt="Twitter">
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          Give me (anonymous)
+          <a href="https://forms.gle/B79ZVBzp4zi1KeRQ9" target="_blank" rel="noopener noreferrer">feedback</a>
+          &middot; &copy; 2026 Olivia Prior
+          <span class="footer-bottom__sep" aria-hidden="true"> · </span>
+          <button
+            type="button"
+            class="theme-toggle"
+            data-theme-toggle
+            aria-label="Toggle color theme"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/assets/js/theme.js" defer></script>
+  </body>
 </html>

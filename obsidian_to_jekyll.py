@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-DEFAULT_SOURCE = Path(r"C:\Users\oprio\Documents\git_obsidian\__main\_notes\7_published")
+DEFAULT_SOURCE = Path(r"C:\Users\oprio\Documents\git_obsidian\notes")
 DEFAULT_POSTS = Path(r"C:\Users\oprio\Documents\_website\_posts")
 PUBLISH_KEYS = ("publish", "published", "status")
 

@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <!-- so that the website looks good with any screen size --><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <head>
+  <meta charset="utf-8">
+  <script>
+    (function () {
+      try {
+        var k = "theme-preference";
+        var v = localStorage.getItem(k);
+        var d =
+          v === "light" || v === "dark"
+            ? v
+            : window.matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light";
+        document.documentElement.setAttribute("data-theme", d);
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "light");
+      }
+    })();
+  </script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Prueba | Olivia Prior</title>
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Prueba" />
@@ -21,121 +37,175 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-04T00:00:00+00:00","datePublished":"2025-02-04T00:00:00+00:00","description":"Esto es una prueba para ver si finalmente consigo subir a la web las cosas que escribo. Escribo para pensar, para hacer sitio a nuevos pensamientos y para ayudarme (a mi yo futuro) o a cualquier otra persona que pudiera beneficiarse de lo que escribo. También me sirve de catálogo para ver cómo evoluciona lo que pienso.","headline":"Prueba","mainEntityOfPage":{"@type":"WebPage","@id":"https://theanega.github.io/2025/02/04/test_note.html"},"url":"https://theanega.github.io/2025/02/04/test_note.html"}</script>
 <!-- End Jekyll SEO tag -->
-<!-- All your stylesheets -->
-    <link rel="stylesheet" href="/assets/main.css">
-    <link rel="stylesheet" href="/assets/css/notes.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    
-    
-    <!-- Your favicon -->
-    <link rel="icon" type="image/png" href="/assets/images/theanega_Small_Logo.png">
-    
-    <!-- Feed meta and analytics --><link type="application/atom+xml" rel="alternate" href="https://theanega.github.io/feed.xml" title="Olivia Prior" /><!-- Your custom styles -->
-    <style>
-        body {
-            max-width: 800px;
-            margin: 2rem auto;
-            /* ... rest of your styles ... */
-        }
-        header {
-            margin-bottom: 2.5rem;
-        }
-        main {
-            margin-top: 1.5rem;
-        }
-        header h1 {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 300;
-        }
-        .social-icons {
-          display: flex;
-          gap: 1rem;
-          justify-content: center;
-        }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="icon" type="image/png" href="/assets/images/theanega_Small_Logo.png"><link type="application/atom+xml" rel="alternate" href="https://theanega.github.io/feed.xml" title="Olivia Prior" /></head>
 
-        .social-icons img {
-            width: 24px;  /* You can adjust this value */
-            height: 24px; /* Keep it the same as width for perfect squares */
-        }
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-        .social-icons a {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-        }
-    </style>
-</head>
-    <body>
-        <header>
-            <h1>Olivia Prior</h1>
-            <nav>
-                <a href="/" >Home</a>
-                <a href="/research" >Research</a>
-                <a href="/notes" >Notes</a>
-                <a href="/talks" >Talks</a>
-                <a href="/lists" >Lists</a>
-            </nav>
-        </header>
+    <div class="site-wrap">
+      <header class="site-header">
+        <a class="site-name" href="/">Olivia Prior</a>
+        <nav class="site-nav-wrap" aria-label="Primary">
+          <ul class="site-nav">
+            
+              
+              <li>
+                <a
+                  href="/"
+                  
+                >About</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/blog/"
+                  
+                >Blog</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/research/"
+                  
+                >Research</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/projects/"
+                  
+                >Projects</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/lists/"
+                  
+                >Lists</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/talks/"
+                  
+                >Talks</a>
+              </li>
+            
+              
+                <li class="site-nav-sep" aria-hidden="true"><span> · </span></li>
+              
+              <li>
+                <a
+                  href="/cv/"
+                  
+                >CV</a>
+              </li>
+            
+          </ul>
+        </nav>
 
-        <main>
-            <article class="post">
+        <hr class="site-rule" />
+      </header>
+
+      <main id="main">
+        
+          <article class="post">
+  <p class="post-back">
+    <a href="/blog/">← Blog</a>
+  </p>
+
   <header class="note-header">
-    <h1>Prueba</h1> 
+    <h1>Prueba</h1>
 
     <div class="note-metadata">
       
-      <span class="planted-date">
-        Planted: 2025-04-02
-      </span>
+        <span class="planted-date">
+          Planted: <time datetime="2025-04-02T00:00:00+00:00">2025.04.02</time>
+        </span>
       
 
       
-      <span class="last-tended">
-        Last tended: 2025-04-02
-      </span>
+        <span class="last-tended">
+          Last tended: <time datetime="2025-04-02T00:00:00+00:00">2025.04.02</time>
+        </span>
       
 
       
     </div>
   </header>
 
-  <div class="note-content">
+  <div class="note-content prose">
     <p>Esto es una prueba para ver si finalmente consigo subir a la web las cosas que escribo. Escribo para pensar, para hacer sitio a nuevos pensamientos y para ayudarme (a mi yo futuro) o a cualquier otra persona que pudiera beneficiarse de lo que escribo. También me sirve de catálogo para ver cómo evoluciona lo que pienso.</p>
 
   </div>
 
   
 </article>
-        </main>
 
-        <footer>
-            <div class="logo-band">
-                <div class="social-icons">
-                    <a href="https://github.com/theanega" target="_blank">
-                        <img src="/assets/images/github.svg" alt="GitHub">
-                    </a>
-                    <a href="https://bsky.app/profile/theanega.bsky.social" target="_blank">
-                        <img src="/assets/images/bluesky.svg" alt="Bluesky">
-                    </a>
-                    <a href="https://scholar.google.com/citations?user=-H_0M20AAAAJ&hl=es" target="_blank">
-                        <img src="/assets/images/googlescholar.svg" alt="Google Scholar">
-                    </a>
-                    <a href="https://linkedin.com/in/oliviaprior" target="_blank">
-                        <img src="/assets/images/linkedin.svg" alt="LinkedIn">
-                    </a>
-                    <a href="https://twitter.com/theanega" target="_blank">
-                        <img src="/assets/images/twitter.svg" alt="Twitter">
-                    </a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                Give me (anonymous) <a href="https://forms.gle/B79ZVBzp4zi1KeRQ9" target="_blank">feedback</a>! &middot; &copy; 2026 Olivia Prior
-            </div>
-        </footer>
-    </body>
+        
+      </main>
+
+      <footer class="site-footer">
+        <div class="logo-band">
+          <div class="social-icons">
+            <a href="https://github.com/theanega" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/github.svg" alt="GitHub">
+            </a>
+            <a href="https://bsky.app/profile/theanega.bsky.social" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/bluesky.svg" alt="Bluesky">
+            </a>
+            <a href="https://scholar.google.com/citations?user=-H_0M20AAAAJ&hl=es" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/googlescholar.svg" alt="Google Scholar">
+            </a>
+            <a href="https://linkedin.com/in/oliviaprior" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://twitter.com/theanega" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/twitter.svg" alt="Twitter">
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          Give me (anonymous)
+          <a href="https://forms.gle/B79ZVBzp4zi1KeRQ9" target="_blank" rel="noopener noreferrer">feedback</a>
+          &middot; &copy; 2026 Olivia Prior
+          <span class="footer-bottom__sep" aria-hidden="true"> · </span>
+          <button
+            type="button"
+            class="theme-toggle"
+            data-theme-toggle
+            aria-label="Toggle color theme"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/assets/js/theme.js" defer></script>
+  </body>
 </html>
