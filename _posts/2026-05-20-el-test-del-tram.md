@@ -19,3 +19,4 @@ Y cuando por fin llegó el tram tuvimos que despedirnos rápido porque seguía h
 Creo que hay algo muy bonito en escuchar a alguien hablar así de un proyecto personal. Se nota enseguida cuándo algo le importa de verdad a una persona. Hay una energía distinta. Y pensé que quizá deberíamos decirnos eso más a menudo: “oye, se nota muchísimo que esto te gusta”. Porque seguramente llegará un momento difícil del proyecto, uno de esos días en los que todo parece absurdo, y entonces quizá venga bien recordar que hubo alguien que disfrutó simplemente escuchándote hablar sobre ello.
 
 Ojalá el tram hubiera tardado unos minutos más. Su proyecto superaba claramente el Test del Tram. Creo que voy a pensar en esto más a menudo para valorar ideas y proyectos. Si escuchando a alguien hablar de su proyecto piensas "ojalá siguiera contándome más", probablemente hay algo auténtico ahí y deberíamos decirlo. Porque no hay muchos cumplidos mejores que ese. 
+

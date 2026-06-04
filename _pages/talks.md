@@ -6,4 +6,4 @@ permalink: /talks/
 
 ## Talks
 
-Coming soon.
+Coming soon. 
