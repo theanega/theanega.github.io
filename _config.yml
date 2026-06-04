@@ -12,20 +12,16 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-# Primary navigation (order: About / Blog / Research / Projects / Lists / Talks / CV)
+# Primary navigation (Lists / Talks hidden until ready — pages still exist at /lists/, /talks/)
 header_nav:
   - label: About
     url: /
   - label: Blog
     url: /blog/
-  - label: Research
-    url: /research/
   - label: Projects
     url: /projects/
-  - label: Lists
-    url: /lists/
-  - label: Talks
-    url: /talks/
+  - label: Research
+    url: /research/
   - label: CV
     url: /cv/
 
