@@ -4,15 +4,13 @@ planted: 2026-06-17
 last_tended: 2026-06-17
 publish: true
 ---
-
-
 In Spain, there is no single medical record per patient. This isn't a secret, but it also isn't something that gets much public debate. I consider it a serious problem, with serious consequences for those of us here today and those who will come tomorrow.
 
 #### Why is this the case?
 
 Healthcare is the responsibility of each autonomous community (region). Between the 1980s and 1990s, 17 different data infrastructures were built, and that data doesn't leave the region. On top of that, each hospital or health area negotiated its own contract with vendors for the IT systems needed to generate and store data. This means that within each region there's also fragmentation: different hospitals may run different systems that make their databases incompatible (the case in Catalonia), or there may be one system for primary care and a different one for hospital care (the case in Andalusia). On top of that, one in four Spaniards has private health insurance[1](#user-content-fn-1), and there's no flow of information between data generated in the public system and data generated in the private one.
 
-The result: a patient can end up with four or five different medical record numbers because the system isn't designed for this data to connect. It's a system fragmented across regions, hospitals, primary care centers, and private clinics, among others.
+The result of this system is that patients end up with four or five different medical record numbers. It's a system fragmented across regions, hospitals, primary care centers, and private clinics, among others.
 
 #### Why is this a problem _in the short term_?
 

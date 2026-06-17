@@ -4,15 +4,13 @@ planted: 2026-06-17
 last_tended: 2026-06-17
 publish: true
 ---
-
-
 A Espanya no existeix un historial clínic únic per pacient. Això no és un secret, però tampoc és quelcom sobre el qual hi hagi gaire debat públic. Jo el considero un problema greu, amb greus conseqüències per a qui som avui aquí i per a qui vindrà demà.
 
 #### Per què és així?
 
 La sanitat és competència de cada comunitat autònoma. Entre els anys 80 i 90 es van construir 17 infraestructures de dades diferents i aquestes dades no surten de la comunitat. A més, cada hospital o àrea de salut va negociar al seu dia el seu propi contracte amb empreses proveïdores del sistema informàtic necessari per generar i emmagatzemar les dades. Això vol dir que dins de cada comunitat autònoma també hi ha fragmentacions: diferents hospitals poden tenir sistemes informàtics diferents que fan les bases de dades incompatibles (cas de Catalunya), o pot haver-hi un sistema diferent per a l'atenció primària i per a l'atenció hospitalària (cas d'Andalusia). A més, un de cada quatre espanyols té una assegurança privada de salut[1](#user-content-fn-1), i tampoc existeix un flux d'informació entre les dades generades a la pública i les generades a la privada.
 
-El resultat: un pacient pot tenir quatre o cinc números d'història clínica diferents perquè el sistema no està dissenyat perquè aquestes dades es connectin. És un sistema fragmentat entre comunitats, hospitals, centres d'atenció primària i clíniques privades, entre altres.
+El resultat és que un pacient pot tenir quatre o cinc números d'història clínica diferents. És un sistema fragmentat entre comunitats, hospitals, centres d'atenció primària i clíniques privades, entre altres.
 
 #### Per què és un problema _a curt termini_?
 
